@@ -21,9 +21,9 @@ steps:
       command: init
       workingDirectory: "CHAP07/pipeline/"
       backendType: azurerm
-      backendServiceArm: '<Your service connection name>'
+      backendServiceArm: 'amrikst.Terraform-Cookbook'
       backendAzureRmResourceGroupName: 'RG_BACKEND'
-      backendAzureRmStorageAccountName: storagetfbackendbook
+      backendAzureRmStorageAccountName: storagetfbackendbook1205
       backendAzureRmContainerName: tfstate
       backendAzureRmKey: myappdemopipeline.tfstate
 
