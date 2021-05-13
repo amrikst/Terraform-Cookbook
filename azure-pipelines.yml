@@ -21,7 +21,7 @@ steps:
       command: init
       workingDirectory: "CHAP07/pipeline/"
       backendType: azurerm
-      backendServiceArm: 'amrik.taggar@FujitsuUKI.onmicrosoft.com'
+      backendServiceArm: 'pipelinedemo'
       backendAzureRmResourceGroupName: 'RG_BACKEND'
       backendAzureRmStorageAccountName: storagetfbackendbook1205
       backendAzureRmContainerName: tfstate
